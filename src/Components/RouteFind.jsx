@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import allStations from "../functions/stations";
 import axios from "axios";
+import PlaceIcon from "@mui/icons-material/Place";
 import {
   Container,
   Typography,
@@ -42,8 +43,6 @@ function RouteFind() {
               code.dest
             }/least-distance/${getCurrentDateTime()}`
           );
-
-          console.log(res.data);
           setRouteData(res.data); // Store the full response data
         } catch (err) {
           console.error("Error fetching data:", err);
@@ -65,6 +64,8 @@ function RouteFind() {
 
   const handleCloseRoute = () => {
     setRouteData(null); // Clear the route data when the button is clicked
+    setSource(null); // Reset the source input field
+    setDestination(null); // Reset the destination input field
   };
 
   return (
@@ -156,9 +157,9 @@ function RouteFind() {
               >
                 <Typography
                   variant="h6"
-                  sx={{ color: "#1976d2", fontWeight: "bold" }}
+                  sx={{ color: "black", fontWeight: "bold" }}
                 >
-                  {line.line} (Line No: {line.line_no})
+                  {line.line}
                 </Typography>
                 <Typography>
                   Start: {line.start} → End: {line.end}
@@ -171,8 +172,14 @@ function RouteFind() {
                 <Typography variant="subtitle1">Stations:</Typography>
                 <Box>
                   {line.path.map((station, i) => (
-                    <Typography key={i}>
-                      {i + 1}. {station.name}
+                    <Typography
+                      key={i}
+                      mr={1}
+                      mb={1}
+                      sx={{ display: "flex", alignItems: "center" }}
+                    >
+                      <PlaceIcon sx={{ color: `${line.line.split(" ")[0]}` }} />{" "}
+                      {station.name}
                     </Typography>
                   ))}
                 </Box>
