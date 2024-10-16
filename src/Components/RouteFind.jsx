@@ -11,7 +11,6 @@ import {
   Paper,
   Divider,
   Stack,
-  Grid2,
 } from "@mui/material";
 
 const url = "https://backend.delhimetrorail.com/api/v2/en/station_route";
