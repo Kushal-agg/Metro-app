@@ -12,6 +12,7 @@ import {
   Paper,
   Divider,
   Stack,
+  CircularProgress,
 } from "@mui/material";
 
 const url = "https://backend.delhimetrorail.com/api/v2/en/station_route";
@@ -33,6 +34,7 @@ function RouteFind() {
   const [destination, setDestination] = useState(null);
   const [routeData, setRouteData] = useState(null); // Store complete route data
   const [code, setCode] = useState({ src: "", dest: "" });
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -47,6 +49,7 @@ function RouteFind() {
         } catch (err) {
           console.error("Error fetching data:", err);
         }
+        setLoading(false);
       }
     };
 
@@ -54,7 +57,9 @@ function RouteFind() {
   }, [code]);
 
   const handleFindRoute = () => {
+    setRouteData(null); // Clear the route data when the button is clicked
     if (source && destination) {
+      setLoading(true);
       setCode({
         src: source.station_code,
         dest: destination.station_code,
@@ -134,7 +139,11 @@ function RouteFind() {
           </Button>
         </Box>
       </Box>
-
+      {loading && (
+        <Box sx={{ display: "flex" }}>
+          <CircularProgress />
+        </Box>
+      )}
       {/* Display Route and Distance */}
       {routeData && (
         <Box
@@ -147,27 +156,28 @@ function RouteFind() {
             sx={{ fontWeight: "bold", color: "#1976d2" }}
           >
             Route Details:
+            <br />
+            (Expected Duration: {routeData.total_time})
           </Typography>
           <Stack spacing={2}>
             {routeData.route.map((line, index) => (
               <Paper
                 key={index}
                 elevation={3}
-                sx={{ p: 3, mb: 2, border: "1px solid #1976d2" }}
+                sx={{ p: 2, mb: 2, border: "1px solid #1976d2" }}
               >
                 <Typography
                   variant="h6"
                   sx={{ color: "black", fontWeight: "bold" }}
                 >
-                  {line.line}
+                  {index > 0 ? `Change for ${line.line}` : `Take ${line.line}`}
                 </Typography>
                 <Typography>
-                  Start: {line.start} → End: {line.end}
+                  Start: {line.start}
+                  <br />
+                  End: {line.end}
                 </Typography>
-                <Typography>
-                  Travel Time: {line.path_time} (Total Time:{" "}
-                  {routeData.total_time})
-                </Typography>
+                <Typography>Travel Time: {line.path_time}</Typography>
                 <Divider sx={{ my: 2 }} />
                 <Typography variant="subtitle1">Stations:</Typography>
                 <Box>
