@@ -1,0 +1,212 @@
+[
+  {
+    "Station Number": "1",
+    "Station Name English": "Noida Sector 51",
+    "Station Name Hindi": "नोएडा सेक्टर ५१",
+    "Total Length in Metres": "0.000",
+    "Interstation Distance in Metres": "0.000",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "Blue Line",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "2",
+    "Station Name English": "Noida Sector 50",
+    "Station Name Hindi": "नोएडा सेक्टर ५०",
+    "Total Length in Metres": "1041.5",
+    "Interstation Distance in Metres": "1041.5",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "3",
+    "Station Name English": "Noida Sector 76",
+    "Station Name Hindi": "नोएडा सेक्टर ७६",
+    "Total Length in Metres": "2095.0",
+    "Interstation Distance in Metres": "1053.5",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "4",
+    "Station Name English": "Noida Sector 101",
+    "Station Name Hindi": "नोएडा सेक्टर १०१",
+    "Total Length in Metres": "3105.2",
+    "Interstation Distance in Metres": "1010.2",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "5",
+    "Station Name English": "Noida Sector 81",
+    "Station Name Hindi": "नोएडा सेक्टर ८१",
+    "Total Length in Metres": "4228.9",
+    "Interstation Distance in Metres": "1123.7",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "6",
+    "Station Name English": "NSEZ",
+    "Station Name Hindi": "एन॰एस॰ई॰ज़ेड॰",
+    "Total Length in Metres": "5153.3",
+    "Interstation Distance in Metres": "924.4",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "7",
+    "Station Name English": "Noida Sector 83",
+    "Station Name Hindi": "नोएडा सेक्टर८३",
+    "Total Length in Metres": "7130",
+    "Interstation Distance in Metres": "1976.7",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "8",
+    "Station Name English": "Noida Sector 137",
+    "Station Name Hindi": "नोएडा सेक्टर १३७",
+    "Total Length in Metres": "8279.4",
+    "Interstation Distance in Metres": "1149.4",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "9",
+    "Station Name English": "Noida Sector 142",
+    "Station Name Hindi": "नोएडा सेक्टर १४२",
+    "Total Length in Metres": "9631.1",
+    "Interstation Distance in Metres": "1351.7",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "10",
+    "Station Name English": "Noida Sector 143",
+    "Station Name Hindi": "नोएडा सेक्टर १४३",
+    "Total Length in Metres": "11279.1",
+    "Interstation Distance in Metres": "1648.0",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "11",
+    "Station Name English": "Noida Sector 144",
+    "Station Name Hindi": "नोएडा सेक्टर १४४",
+    "Total Length in Metres": "12500.6",
+    "Interstation Distance in Metres": "1221.5",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "12",
+    "Station Name English": "Noida Sector 145",
+    "Station Name Hindi": "नोएडा सेक्टर १४५",
+    "Total Length in Metres": "13852.8",
+    "Interstation Distance in Metres": "1352.2",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "13",
+    "Station Name English": "Noida Sector 146",
+    "Station Name Hindi": "नोएडा सेक्टर १४६",
+    "Total Length in Metres": "15084.1",
+    "Interstation Distance in Metres": "1231.3",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "14",
+    "Station Name English": "Noida Sector 147",
+    "Station Name Hindi": "नोएडा सेक्टर १४७",
+    "Total Length in Metres": "16617.1",
+    "Interstation Distance in Metres": "1533.0",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "15",
+    "Station Name English": "Noida Sector 148",
+    "Station Name Hindi": "नोएडा सेक्टर १४८",
+    "Total Length in Metres": "",
+    "Interstation Distance in Metres": "",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "16",
+    "Station Name English": "Knowledge Park II",
+    "Station Name Hindi": "नॉलेज पार्क II",
+    "Total Length in Metres": "19910.6",
+    "Interstation Distance in Metres": "3293.5",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "17",
+    "Station Name English": "Pari Chowk",
+    "Station Name Hindi": "परी चौक",
+    "Total Length in Metres": "22239",
+    "Interstation Distance in Metres": "2328.4",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "18",
+    "Station Name English": "Alpha 1",
+    "Station Name Hindi": "एल्फा १",
+    "Total Length in Metres": "24010.8",
+    "Interstation Distance in Metres": "921.8",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "19",
+    "Station Name English": "Delta 1",
+    "Station Name Hindi": "डेल्टा १",
+    "Total Length in Metres": "25096.7",
+    "Interstation Distance in Metres": "1085.9",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "20",
+    "Station Name English": "GNIDA Office",
+    "Station Name Hindi": "ग्रेनो ऑफिस",
+    "Total Length in Metres": "26182.6",
+    "Interstation Distance in Metres": "1855.8",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  },
+  {
+    "Station Number": "21",
+    "Station Name English": "Depot",
+    "Station Name Hindi": "डिपो",
+    "Total Length in Metres": "27881.4",
+    "Interstation Distance in Metres": "1699.0",
+    "Inauguration Date": "25 January 2019",
+    "Connections": "None",
+    "Layout": "Elevated"
+  }
+]
